@@ -1,3 +1,4 @@
+use alloc::vec::Vec;
 use serde::Serialize;
 
 use crate::error::{Error, Result};

@@ -1,5 +1,6 @@
 #![allow(unused_variables)]
 
+use alloc::string::String;
 use core::fmt::{Display, Formatter};
 
 use crate::prelude::*;

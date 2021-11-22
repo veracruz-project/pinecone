@@ -28,7 +28,7 @@ features = ["derive", "alloc"]
 
 [dependencies.hashbrown]
 version = "0.6.3"
-features = ["nightly", "inline-more", "serde"]
+features = ["inline-more", "serde"]
 
 [features]
 use-std = ["serde/std"] # Use std instead of alloc
