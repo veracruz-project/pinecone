@@ -1,3 +1,5 @@
+#[cfg(not(feature = "use-std"))]
+use alloc::vec::Vec;
 use core::ops::Index;
 use core::ops::IndexMut;
 

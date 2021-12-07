@@ -1,5 +1,7 @@
 #![allow(unused_variables)]
 
+#[cfg(not(feature = "use-std"))]
+use alloc::string::String;
 use core::fmt::{Display, Formatter};
 
 use crate::prelude::*;
